@@ -1,0 +1,130 @@
+/* Footer Container */
+.footer {
+    background: linear-gradient(to bottom, #a4c2e1, #d0e1f9);
+    color: #333;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s;
+    position: relative;
+  }
+  
+  
+  /* Footer Content Container */
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  /* Footer Section Styles */
+  .footer-section {
+    flex: 1;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+  }
+  
+  .footer-section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #1E90FF;
+    transition: color 0.3s;
+  }
+  
+  .footer-section .icon {
+    font-size: 24px;
+    color: #1E90FF;
+    margin-bottom: 10px;
+    transition: color 0.3s;
+  }
+  
+  .footer-section:hover .icon,
+  .footer-section:hover h3 {
+    color: #0D63FF;
+  }
+  
+  /* Contact Section Styles */
+  .contact a {
+    color: #1E90FF;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .contact a:hover {
+    color: #0D63FF;
+    text-decoration: underline;
+  }
+  
+  /* Social Media Section Styles */
+  .social-media ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .social-media li {
+    margin-bottom: 10px;
+  }
+  
+  .social-media a {
+    color: #1E90FF;
+    text-decoration: none;
+    display: inline-block;
+    transition: color 0.3s;
+  }
+  
+  .social-media a:hover {
+    color: #0D63FF;
+    text-decoration: underline;
+  }
+  
+  /* Careers Section Styles */
+  .careers a {
+    color: #1E90FF;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .careers a:hover {
+    color: #0D63FF;
+    text-decoration: underline;
+  }
+  
+  /* Footer Logo Styles */
+  .footer-logo {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .footer-logo img {
+    width: 200px; /* Adjust the width as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    transition: transform 0.3s;
+  }
+  
+  .footer-logo img:hover {
+    transform: scale(1.1); /* Add a slight hover animation */
+  }
+  
+  /* Footer Bottom Styles */
+  .footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+  }
+  

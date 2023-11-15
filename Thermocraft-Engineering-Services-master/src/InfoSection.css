@@ -1,0 +1,66 @@
+/* InfoSection.css */
+
+/* Style the container of the info section */
+.info-section {
+  background: linear-gradient(45deg, #e6e6fa, #f7f7f7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+/* Style the heading */
+.section-heading {
+  font-size: 28px;
+  color: #0a68b0; /* Slight light blue color for the heading */
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Style each info box */
+.info-box {
+  text-align: center;
+  width: 30%;
+  margin: 10px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style the Font Awesome icon */
+.info-icon {
+  font-size: 36px;
+  color: #0a68b0; /* Slight light blue color for the icon */
+  margin-bottom: 20px;
+}
+
+/* Style the info number */
+.info-number {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Style the info label */
+.info-label {
+  font-size: 16px;
+  color: #f76c6c;
+  margin-top: 10px;
+}
+
+/* Hover effect on info boxes */
+.info-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}

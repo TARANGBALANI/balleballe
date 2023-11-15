@@ -1,0 +1,144 @@
+/* AboutUsSection.css */
+
+/* Style the container of the About Us section */
+.about-us-center {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  background: 
+    url('https://images.unsplash.com/photo-1435575653489-b0873ec954e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'); /* Replace 'technology' with the desired keyword */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #333;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  opacity: 1;
+}
+
+/* Style the content container */
+.about-us-content {
+  flex: 1;
+  padding: 40px;
+  animation: fadeIn 1s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Style the heading */
+.section-heading {
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Style the subtitle */
+.section-subtitle {
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  color: #666;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Style the tabs */
+.tabs {
+  display: flex;
+  justify-content: center; /* Center the tabs */
+  margin-bottom: 20px;
+}
+
+.tab-button {
+  padding: 10px 20px;
+  background: #f7f7f7;
+  color: #333;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-right: 10px;
+  transition: background 0.3s, color 0.3s;
+  width: 200px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.tab-button:hover {
+  background: #e6e6fa;
+  color: #333;
+}
+
+.tab-button.active {
+  background: #e6e6fa;
+  color: #333;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+}
+
+/* Style each section (Engineering Services and Recruitment Services) */
+.about-section {
+  display: none;
+  padding: 20px;
+  border-radius: 10px;
+  background: #e6e6fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: opacity 0.5s, transform 0.5s;
+  color: #333;
+  width: 600px;
+  text-align: center; /* Center the text */
+}
+
+.about-section.active {
+  display: block;
+  margin-bottom: 20px;
+  animation: slideIn 0.5s ease-in-out;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Style the section headings (Engineering Services and Recruitment Services) */
+.about-section h3 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the section text */
+.about-section p {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.6;
+}
